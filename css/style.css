@@ -36,3 +36,12 @@ nav {
 nav li {
     display: inline;
     margin_right: 1rem;
+}
+
+.slides {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: none;
+    border-radius: 3rem;
+}
