@@ -4,8 +4,8 @@ function slideshow() {
     let slides = document.getElementsByClassName("slides");
     
     console.log(slides);
-    for (let i = 0; i < slides.length; it++) {
-        slides[i].display = "none";
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
     slideIndex++;
 
@@ -16,3 +16,5 @@ function slideshow() {
     slides[slideIndex - 1].style.display = "block";
     setTimeout(slideshow, 2000);
 }
+
+slideshow();
